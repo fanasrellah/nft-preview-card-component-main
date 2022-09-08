@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+background-color:hsl(217, 54%, 11%);
+display: flex;
+align-items: center;
+flex-direction: column;
+max-height: 100vh;
+font-family: 'Outfit', sans-serif;
+
+}
+
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 30%;
+    height: 20%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    margin: 0;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+.img {
+    width: 90%;
+    position: relative;
+    top: 13px;
+
+}
+.img img{
+width: 100%;
+height: 100%;
+position: relative;
+border-radius: 15px;
+}
+
+.text {
+    height: 230px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.para {
+    position: relative;
+    top: 20px;
+    color: rgba(240, 248, 255, 0.396);
+}
+
+.text h1 {
+    color: white;
+}
+.text p {
+    font-size: 18px;
+    width: 90%;
+}
+
+
+.publish img{
+width: 25px;
+height: 25px;
+}
+
+
+
+.details {
+    display:flex ;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    top: 40px;
+    position: relative;
+}
+
+
+.days-left {
+left: 40px;
+position: relative;
+color: white;
+}
+
+.eth {
+    left: 10px;
+    position: relative;
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+.clock {
+    left: 36px;
+    position: relative;
+}
+
+
+
+
+.line {
+
+height: 2px;
+background-color: hsl(215, 32%, 27%);
+width: 90%;
+bottom: 10px;
+position: relative;
+
+}
+
+.publish {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.publish img {
+border: solid 1px white;
+border-radius: 100%;}
+
+
+
+.publish p {
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 414px) {
+    .container {
+        background-color: hsl(216, 50%, 16%);
+        width: 89%;
+        height: 100%;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 100px;
+        margin: 0;
+        box-shadow: 5px 5px rgb(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .container {
+        background-color: hsl(216, 50%, 16%);
+        width: 59%;
+        height: 79%;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 100px;
+        margin: 0;
+        box-shadow: 5px 5px rgb(0, 0, 0);
+    }
+}
